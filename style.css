@@ -1,0 +1,55 @@
+@import url('https//fonts.googleapis.com/css2?family=Popppins:wght@300;400;500;600;700;800;900&display=swap');
+
+.videobackground {
+    height: 150vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "consolas";
+    /* font-family: 'Poppins', Cantarell; */
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 100;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: rgba(33, 33, 44, 0.342);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo {
+    font-size: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.navbar a:hover {
+    color:rgb(0, 63, 100);
+}
+.header .logo {
+    display: flex;          /* Use flexbox for alignment */
+    align-items: center;    /* Align items vertically in the center */
+}
+
+.name {
+    font-family: 'Arial', sans-serif; /* Change this to your desired font */
+    font-size: 24px; /* Adjust the size as needed */
+    font-weight: bold; /* Adjust the weight if needed */
+    margin-left: 10px; /* Add space between the image and text */
+}
